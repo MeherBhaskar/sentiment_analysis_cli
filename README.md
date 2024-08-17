@@ -56,13 +56,13 @@ chmod +x detect_sentiment.py
 
 Execute the detect_sentiment.py script with your text as input:
 
-``bash
+```bash
 ./detect_sentiment.py "<text>"
-``
+```
 
 For example: 
-``
+```bash
 ./detect_sentiment.py "I love this product!"
-``
+```
 
 
