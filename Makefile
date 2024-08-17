@@ -1,12 +1,15 @@
-create_env:
-	echo "Creating Virtual Environment"
-	python3 -m venv cli_env
-	source cli_env/bin/activate
+# Install required packages
+install:
+	pip install -r requirements.txt
+	echo "Packages installed."
 
-	echo "Installing required packages"
-	pip install -r requirement.txt
+format: install
+	@echo "Formatting code"
+	black .  # Adjust the path to where your code resides
+	@echo "Code formatting completed."
 
-clean_env:
-	echo "Removing Virtual Environment"
-	rm -rf cli_env
-	echo "Removed Virtual Environment"
+test:
+	pytest tests/
+
+all:
+	install format test
