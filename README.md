@@ -37,7 +37,7 @@ Follow these steps to set up the project:
     make format
     ```
 
-4. ** Run Tests** 
+4. **Run Tests** 
     ```bash
     make test
     ```
