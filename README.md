@@ -6,7 +6,7 @@ This project provides a command-line interface (CLI) for performing sentiment an
 
 Ensure you have the following tools installed:
 
-- Python 3.7 or later
+- Python 3.10 or later
 - Make
 
 ## Setup
