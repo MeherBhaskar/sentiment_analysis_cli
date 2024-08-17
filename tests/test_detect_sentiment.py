@@ -13,6 +13,6 @@ def test_get_sentiment_negative():
     runner = CliRunner()
     result = runner.invoke(get_sentiment, ['I hate this product!'])
     assert result.exit_code == 0
-    assert "The entered text is not  negative" in result.output
+    assert "The entered text is negative" in result.output
     assert "with a score" in result.output
 
