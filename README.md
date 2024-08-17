@@ -1,3 +1,6 @@
+
+[![Run Tests](https://github.com/MeherBhaskar/sentiment_analysis_cli/actions/workflows/main.yml/badge.svg)](https://github.com/MeherBhaskar/sentiment_analysis_cli/actions/workflows/main.yml)
+
 # Sentiment Analysis CLI
 
 This project provides a command-line interface (CLI) for performing sentiment analysis on text using a Hugging Face transformer model.
