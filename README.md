@@ -23,21 +23,28 @@ Follow these steps to set up the project:
    cd sentiment_analysis_cli
    ```
 
-2. **Install Required Packages**
+2. **Create New Environment**
+    Create new environment using
+
+    ```bash
+    make create_env
+    ```
+
+3. **Install Required Packages**
     Install required packages using 
     
     ```bash
     make install
     ```
 
-3. **Format and Lint Code**
+4. **Format and Lint Code**
     Format the code and install the necessary packages by running:
 
     ```bash 
     make format
     ```
 
-4. **Run Tests** 
+5. **Run Tests** 
     ```bash
     make test
     ```
@@ -52,7 +59,15 @@ Change the permissions to make the detect_sentiment.py script executable:
 chmod +x detect_sentiment.py
 ```
 
-2. **Run the CLI Command**
+2. **Activate the Conda Environment**
+
+Activate the conda environment
+
+```bash
+conda activate sentiment_analysis_cli
+```
+
+3. **Run the CLI Command**
 
 Execute the detect_sentiment.py script with your text as input:
 
