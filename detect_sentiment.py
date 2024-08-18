@@ -17,8 +17,10 @@ def get_sentiment(text):
         f"The entered text is {result[0]['label'].lower()} with a score {round(result[0]['score'],3)}"
     )
 
+
 def hello():
-    print('hello')
+    print("hello")
+
 
 if __name__ == "__main__":
     get_sentiment()
